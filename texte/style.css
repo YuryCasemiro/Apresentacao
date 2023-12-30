@@ -1,0 +1,71 @@
+@keyframes typing {
+    from {
+        width: 0;    
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+*{
+    margin: 0;
+}
+
+.start {
+    padding: 450px;
+    background-color: black;
+}
+
+.começar {
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+    margin: 0 auto;
+    border-right: 4px solid;
+    text-decoration: none;
+    width: 5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(5), blinking 0.5s infinite step-end alternate;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: monospace;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 25px;   
+}
+
+#foto {
+    text-align: center;
+}
+
+.eu {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.icon {
+    padding: 20px;
+    text-align: right;
+}
+
+span {
+    font-weight: bold;
+}
